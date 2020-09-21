@@ -1,1 +1,25 @@
-/etc/hosts
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+10.1.90.20 controller.example.com controller compute.example.com compute network.example.com network
+10.1.53.1  vcenter	vcenter.xcloud.local
+10.1.53.3  esxi1-oob	esxi1-oob.xcloud.local
+10.1.53.4  ucsm		ucsm.xcloud.local
+10.1.53.5  fia		fia.xcloud.local
+10.1.53.6  fib		fib.xcloud.local
+10.1.53.7  centos1	centos1.xcloud.local
+10.1.53.8  dns1		dns1.xcloud.local tftp tftp.xcloud.local dhcp dhcp.xcloud.local ntp ntp.xcloud.local email email.xcloud.local ns1 ns1.xcloud.local xcloud.local
+10.1.53.9  win2016-1	win2016-1.xcloud.local
+10.1.53.10 hx-installer	hx-installer.xcloud.local
+10.1.54.4  tet tet.xcloud.local
+10.1.54.4  collector1 collector1.xcloud.local
+10.1.54.4  collector2 collector2.xcloud.local
+10.1.58.4  tet-2 tet-2.xcloud.local
+10.1.53.87 repo repo.xcloud.local software software.xcloud.local
+10.1.53.88 freeipa freeipa.xcloud.local
+10.1.53.215 vctet.xcloud.local
+10.1.54.220 dcnm dcnm.xcloud.local
+10.1.54.226 dcnm1131 dcnm1131.xcloud.local
+10.1.53.228 k8s-master k8s-master.xcloud.local
+10.1.53.229 k8s-node-1 k8s-node-1.xcloud.local
+10.1.53.230 k8s-node-2 k8s-node-2.xcloud.local
